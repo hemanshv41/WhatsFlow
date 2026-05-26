@@ -52,6 +52,37 @@ st.markdown("""
     font-family: 'Fira Code', monospace !important;
 }
 
+/* Custom file uploader retro layout to guarantee zero text overlapping */
+[data-testid="stFileUploader"] section {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    background-color: #12131a !important;
+    border: 2px dashed #00ffff !important;
+    padding: 15px !important;
+    border-radius: 0px !important;
+}
+
+[data-testid="stFileUploader"] section button {
+    background-color: #ff007f !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: 3px 3px 0px #00ffff !important;
+    font-family: 'VT323', monospace !important;
+    font-size: 1.2rem !important;
+    border-radius: 0px !important;
+    padding: 8px 12px !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+    transition: all 0.1s ease !important;
+}
+
+[data-testid="stFileUploader"] section button:hover {
+    background-color: #00ffff !important;
+    color: #000000 !important;
+    box-shadow: 2px 2px 0px #ff007f !important;
+}
+
 /* Custom legible retro headers */
 h1, h2, h3, .retro-header {
     font-family: 'VT323', monospace !important;
