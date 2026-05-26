@@ -13,4 +13,4 @@ Responsive interface
 
 
 
-<img width="1853" height="849" alt="Screenshot 2026-05-26 190135" src="https://github.com/user-attachments/assets/6ea840f9-b6cb-4508-ba99-bff0633a8b82" />
+
