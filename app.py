@@ -38,7 +38,6 @@ st.markdown("""
     background-size: 30px 30px !important;
     color: #e2e8f0 !important; /* Premium high-contrast off-white for body text */
     font-family: 'Fira Code', monospace !important;
-    font-size: 1.1rem !important;
 }
 
 /* Sidebar CRT style */
