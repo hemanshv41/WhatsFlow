@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.streamlit/
+*.txt
+!requirements.txt
+*.zip
+*.log
